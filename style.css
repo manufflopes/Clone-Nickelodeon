@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+/*  font-family: 'Poppins', sans-serif; */
+
+:root {
+    --page-background: #561786;
+    --card-background: #401164;
+    --footer-color: #c4afd4;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho > #menu-hamburguer > div.menu-icon {
+    width: 27px;
+    height: 2px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+#cabecalho {
+    height: 110px;
+    background-color: white;
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#cabecalho img {
+    height: 46px;
+    width: auto;
+    margin: auto;
+}
+#menu-hamburguer {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+nav a {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav a:hover {
+    border-bottom: 3px solid black;
+}
+
+nav {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 44px;
+    padding-left: calc(3% + 22px);
+    padding-right: 3%;
+    border-bottom: 2px solid black;
+}
+
+#conteudo #first {
+    background-color: #561786;
+}
+#imagens {
+    padding: 2% 2%;
+}
+
+.img-box {
+    background-color: #401164;
+    color: white;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.img-box strong,
+.img-box p {
+    padding: 15px;
+    display: block;
+}
+.big {
+    width: 90%;
+}
+.small {
+    flex: 1;
+}
+
+.small:first-child {
+    margin-right: 15px;
+}
+.small-container {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#conteudo #first #imagens .img-big {
+    width: 100%;
+    display: block;
+    font-size: 0;
+    margin: 0 auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#conteudo #first #imagens .img-small {
+    width: 100%;
+    font-size: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#conteudo #second {
+    color: white;
+    background-color: #612490;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    margin: auto;
+}
+#conteudo #second #texto-chamada {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin: auto;
+}
+#conteudo #second #texto-conteudo {
+    text-align: center;
+    font-size: 14px;
+    text-transform: none;
+    padding-bottom: 50px;
+    height: 42px;
+    width: 847px;
+    margin: auto;
+}
+
+#rodape {
+    height: 210px;
+    background-color: #401164;
+    color: #c4afd4;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 12px;
+}
+#rodape a {
+    color: #c4afd4;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+#rodape #links {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+#rodape p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+#banner-img {
+    border-radius: 8px;
+}
+
+#imagens > .img-box {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+
+    bottom: 5%;
+}
